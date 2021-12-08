@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@200&family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #171010;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#meni {
+    text-align: center;
+    height: auto;
+    padding: 20px;
+    background-color: #362222;
+}
+
+#meni ul {
+  justify-content: space-around;
+   display: flex;
+    text-transform: uppercase;
+}
+
+
+#meni ul li {
+ line-height: auto;
+
+ padding-left: 50px;
+ padding-right: 50px ;
+}
+
+#meni img {
+    width: 80px;
+}
+
+#meni ul li a {
+   color: #e6e6e6;
+}
+
+#meni ul li:hover {
+
+    transform:scale(1.3,1.3);
+    transition: 0.3s;
+    font-weight: bold;
+}
+#meni ul {
+    justify-content: space-around;
+}
+.baltic {
+    padding-top:40px ;
+}
+#okvir {
+    height: auto;
+    
+    width: 100%;
+    background-color: #171010;
+    margin: 0px auto;
+    
+}
+#vid {
+    width: 100%;
+    position: relative;
+    filter: grayscale(40%);
+    
+}
+
+
+#tekst{
+    position: absolute;
+    top:250px;
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+    text-shadow:7px 7px 12px black;
+    height: 250px;
+    font-size: 30px;
+    padding-top: 100px;
+    color: #EED6C4;
+}
+
+#tekst h1:hover {
+    transition: 0.5s;
+    transform: scale(1.08);
+}
+
+.blok1 {
+    width: 95%;
+    height: auto;
+    
+    display: flex;
+    margin: 0px auto;
+    flex-direction: row;
+    
+}
+
+.blok2 {
+    width: 50%;
+    height: auto;
+    background-color: #423F3E;
+    padding: 40px;
+    }
+
+
+.cleaner{
+    clear: both;
+}
+
+.blok2slika {
+    background-image: url('../slike/salon1.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+.blok3 {
+    background-color: #eed6c4ad;
+    height: auto;
+    padding: 15px;
+}
+
+
+.blok2slika2 {
+    background-image: url('../slike/2.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    
+}
+
+
+
+.blok2slika:hover {
+    transition: 0.4s;
+    transform:scale(1.1);
+}
+
+.blok2slika2:hover {
+    transition: 0.4s;
+    transform:scale(1.1);
+}
+
+
+/*nastim*/
+
+.baner {
+    
+    background-position: center;
+   
+    height: auto;
+    background-image: url('../slike/baneronama.jpg') ;
+    background-position: top;
+    padding: 150px;
+    text-align: center;
+}
+
+#tekst1 h1 {
+    color: #EED6C4;
+    font-size: 70px;
+    text-shadow:7px 7px 12px black ;
+}
+
+#blokveliki {
+    width: 100%;
+    height: auto;
+    background-color: #171010;
+    padding-top:40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.blokic {
+    width: 40%;
+    height: 300px;
+    background-color: #EED6C4;
+    margin-top: 35px;
+    display: flex;
+
+    flex-direction: row;
+
+}
+
+.opis p {
+    font-size: 20px;
+    padding: 20px;
+    font-style: italic;
+}
+
+.opis h2 {
+    text-decoration: underline;
+    text-align: center;
+    
+}
+
+/*Onama*/
+
+.blok2slika22 {
+    background-image: url('../slike/onama.jpeg');
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    
+}
+
+.blok2slika1 {
+    background-image: url('../slike/slika6.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.blok2slika1:hover {
+    transition: 0.4s;
+    transform:scale(1.1);
+}
+
+.blok2slika22:hover {
+    transition: 0.4s;
+    transform:scale(1.1);
+}
+/*USLUGE*/
+
+
+
+#helikopter {
+    width: 100%;
+    height: auto;
+    background-color: crimson;
+    display: flex;
+    
+       
+    
+}
+
+.blok22 {
+    width: 50%;
+    height: 400px;
+    background-color: #EED6C4;
+
+}
+.blok22 table {
+    
+    width: 100%;
+    background-color:#EED6C4 ;
+}
+
+
+.blok22 table td {
+    
+    height: 110px;
+    border-bottom: 2px dashed black;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.blok22 table td:nth-child(2) {
+    
+    text-align: right;
+  }
+
+.blok22 h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-decoration: underline ;
+
+}
+
+.boja {
+    color: #D06224;
+}
+
+.tabela {
+    background-color:#ecc4a4;
+}
+
+.tabela table {
+    background-color: #ecc4a4;
+}
+
+#okvir h3 {
+    color: #e6e6e6;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.galerija {
+    display: flex;
+    justify-content: space-around;
+    
+    width: 80%;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    
+}
+
+.efekat {
+    filter: grayscale(100%);
+    
+}
+
+.efekat:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1,1.1);
+    transition: .5s;
+    
+}
+
+.galerija img {
+    width: 300px;
+    height: 300px;
+}
+
+
+
+/*KONTAKT*/
+
+#kontakt1 {
+    width: 100%;
+    height: 400px;
+    background-color: #EED6C4;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.blok222 p {
+    text-align: center;
+    font-weight: bolder;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+#forma input[type=text] {
+    background-color:#EED6C4 ;
+   
+    height: 100px;
+    border: 4px solid #362222;
+    margin-top: 7px;
+    color: darkblue;
+    
+}
+
+.forma {    
+    width: 50%;
+}
+#forma {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-around;
+    padding: 30px;
+    
+}
+textarea{
+    background-color: #EED6C4;
+    border: 4px solid #362222;
+    margin-top: 14px;
+    height: 200px;
+    
+}
+button[type=submit]{
+    background-color: #EED6C4;
+    border: 4px solid #362222;
+    color: #171010;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 25%;
+    height: 70px;
+    margin-top: 14px;
+}
+
+button:hover {
+    transition: .5s;
+    background-color: #D06224;
+}
+
+iframe {
+    width: 100%;
+}
+
+.blok222 {
+    width: 50%;
+}
+
+/*AUTOR*/
+
+#autor {
+    width: 80%;
+    margin: 0px auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+#autor2 h2 {
+    color: #e6e6e6;
+    margin-bottom: 40px;
+}
+#autor2 p {
+    color: white;
+    font-size: 22px;
+}
+
+
+
+/*FOOTER*/
+#footer {
+    width: 100%;
+    height: 150px;
+    background-color: #362222;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+
+#ikonice {
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+    font-size: 22px;
+    color: blue;
+}
+
+.radnovreme h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #EED6C4;
+    margin-top: 10px;
+}
+.radnovreme p {
+    margin-top: 5px;
+    color: #EED6C4;
+    font-style:italic ;
+}
+
+.font {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.efekti {
+    font-weight: bolder;
+    font-style: italic;
+}
+.ikonice {
+    margin-top: 36px;
+    
+}
+.ikonice i {
+    font-size: 26px;
+    color: #EED6C4;
+    padding: 5px;
+    
+}
+.ikonice i:hover {
+    transition: .5s;
+    transform: scale(1.2,1.2);
+}
+
+.ikonice p {
+    margin-bottom: 10px;
+    color: #EED6C4;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.autor p {
+    margin-bottom: 10px;
+    color: #EED6C4;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.autor a {
+    color: #EED6C4;
+}
+
+.adresa {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.radnovreme h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #EED6C4;
+    margin-top: 10px;
+}
